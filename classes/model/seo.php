@@ -7,7 +7,7 @@ class Model_Seo extends Jelly_Model
 {
 	public static function initialize(Jelly_Meta $meta)
 	{
-		$meta>table('seo')->fields(array(
+		$meta->table('seo')->fields(array(
 			'id' => new Field_Primary,
 			'keywords' => new Field_String,
 			'description' => new Field_String,
