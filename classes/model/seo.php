@@ -13,7 +13,6 @@ class Model_Seo extends Jelly_Model
 			'description' => new Field_String,
 			'robots' => new Field_Enum(array(
 				'choices' => array('all','noindex','nofollow','noindex,nofollow'),
-				'default' => 'all',
 			)),
 		));
 	}
